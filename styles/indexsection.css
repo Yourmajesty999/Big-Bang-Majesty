@@ -1,0 +1,36 @@
+html,body{
+    height:100%;
+}
+section{
+    float: right;
+}
+aside {
+	float: left;
+}
+.article-title {
+	float: right;
+	width: 900px;
+	background-color: white;
+	height: 100%;
+	position: relative;
+	padding-top: 20px;
+}
+.aos-item {
+	margin-top: 20px;
+}
+.essay {
+	padding-top: 60px;
+
+}
+.essay h1 {
+	text-align: center;
+	color: #0d0d0d;
+}
+.essay p {
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #262626;
+}
+.text-button {
+	text-align: center;
+}

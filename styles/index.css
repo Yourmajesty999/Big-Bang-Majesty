@@ -1,19 +1,27 @@
 .menu {
 	padding: 10px 20px;
 	display: block;
-
 }
 .menu:hover {
 	background-color: #e6ffe6;
 }
+ #menu .menu a i {
+	padding-top: 10px;
+	margin-top: 5px;
+}
+i {
+	margin-right: 5px;
+}
 #menu {
 	width: 240px;
-	height: 190px;
+	height: 230px;
 	background-color: white;
 	text-align: center;
 	font-family: "verdana", "verdana", "Microsoft YaHei", sans-serif;
-	
+	border: 1px white solid;
+	border-radius: 10px;
 }
+
 
 #meone {
 	background-color: white;
@@ -23,6 +31,8 @@
 	background-color: white;
 	width: 240px;
 	height: 350px;
+	border: 1px white solid;
+	border-radius: 10px;
 }
 #metoo {
 	background-color: white;
@@ -35,7 +45,7 @@
 }
 
 
-img {
+#meone img {
 	width: 126px;
 	height: 126px;
 	border: 1px solid black;
@@ -48,7 +58,6 @@ a {
 body {
 	padding: 20px 60px;
 	background-color: #e6ffe6;
-
-
-
 }
+
+

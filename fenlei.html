@@ -4,49 +4,166 @@
 	<title>Big Bang Majesty</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="styles/index.css">
+	<link rel="stylesheet" type="text/css" href="styles/fenlei.css">
+	<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+	<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 </head>
 <body>
+<div class="all-content">
+<aside>
 <div id="menu">
 	<li class="menu">
-		<a href="index.html">首页</a>
+		<a href="index.html">
+			<i class="fa fa-fw fa-home"></i>
+				首页
+		</a>
 	</li>
 	<li class="menu">
-		<a href="guidang.html">归档</a>
+		<a href="guidang.html">
+			<i class="fa fa-file"></i>	
+				归档
+		</a>
 	</li>
 	<li class="menu">
-		<a href="biaoqian.html">标签</a>
+		<a href="biaoqian.html">
+			<i class="fa fa-tags"></i>
+				标签
+		</a>
 	</li>
 	<li class="menu">
-		<a href="search.html">搜索</a>
+		<a href="search.html">
+			<i class="fa fa-search" aria-hidden="true"></i>
+				搜索
+		</a>
 	</li>
 </div>
-
-
-	<div id="meone">
+<div id="meone">
 		<img src="photoes/touxiang.jpg">
 		<p>Big Bang Majesty</p>
 		<p>新手上道，老鸟勿笑。</p>
 	
 	<nav id="metoo">	
 	<div>
-		<a href="guidang.html">
+		<a href="log.html">
 		<span>日志</span>
-		<span>0</span>
+		<span>2</span>
 		</a>
 	</div>
 	<div>
 		<a href="fenlei.html">
 			<span>分类</span>
-			<span>0</span>
+			<span>10</span>
 		</a>
 	</div>
 	<div>
-		<a href="biaoqian.html">
+		<a href="photoes.html">
 			<span>相册</span>
-			<span>0</span>
+			<span>6</span>
 		</a>
 	</div>
 </nav>	
+</div>
+</aside>
+<section>
+	<div class="tag-cloud">
+	<svg viewBox="0 0 400 40" class="tag-title">
+
+  <!-- Gradient -->
+  <radialGradient id="gr-radial"
+                  cx="50%" cy="50%" r="70%"
+                  >
+    <!-- Animation for radius of gradient -->
+    <animate attributeName="r" 
+             values="0%;150%;100%;0%"
+             dur="5s" repeatCount="indefinite" />
+    <!-- Animation for colors of stop-color -->
+    <stop stop-color="#FFF" offset="0">
+      <animate attributeName="stop-color" 
+               values="#333;#FFF;#FFF;#333"
+               dur="5s" repeatCount="indefinite" />
+    </stop>
+    <stop stop-color="rgba(55,55,55,0)" offset="100%"/>
+  </radialGradient>
+
+  <!-- Text -->
+  <text text-anchor="middle"
+        x="50%"
+        y="50%"
+        dy=".35em"
+        class="text"
+        >
+    目前共有10个分类
+  </text>
+</svg>
+
+			<div class="tags-col">
+			<div id="transcroller-body" class="aos-all">
+				<div class="aos-item" data-aos="fade-down" data-aos-anchor-placement="center-center">
+        
+        			<div id="tag1" class="aos-item__inner">
+						<a href="photoes.html">图片</a>
+					</div>
+        
+      		</div>
+
+			<div data-aos="fade-down" class="aos-item" data-aos-anchor-placement="center-center">	
+				<div id="tag2" class="aos-item__inner">
+					<a href="">动漫</a>
+				</div>
+			</div>	
+			<div data-aos="fade-up" class="aos-item" data-aos-anchor-placement="center-center">
+				<div id="tag3" class="aos-item__inner">
+					<a href="">英语</a>
+				</div>
+			</div>
+			<div data-aos="fade-up" class="aos-item" data-aos-anchor-placement="center-center">
+				<div id="tag4" class="aos-item__inner">
+					<a href="">喵汪</a>
+				</div>
+			</div>
+			<div data-aos="flip-left" class="aos-item" data-aos-anchor-placement="center-center">
+				<div id="tag5" class="aos-item__inner">
+					<a href="">随笔</a>
+				</div>
+			</div>
+			<div data-aos="flip-left" class="aos-item" data-aos-anchor-placement="center-center">
+				<div id="tag6" class="aos-item__inner">
+					<a href="">JavaScript</a>
+				</div>
+			</div>
+			<div data-aos="fade-up" class="aos-item" data-aos-anchor-placement="center-center">
+				<div id="tag7" class="aos-item__inner">
+					<a href="">CSS</a>
+				</div>
+			</div>
+			<div data-aos="fade-up" class="aos-item" data-aos-anchor-placement="center-center">
+				<div id="tag8" class="aos-item__inner">
+					<a href="log.html">日志</a>
+				</div>
+			</div>
+
+			<div data-aos="fade-right" class="aos-item" data-aos-anchor-placement="center-center">
+				<div id="tag9" class="aos-item__inner">
+					<a href="">读书</a>
+				</div>
+			</div>
+			<div data-aos="fade-right" class="aos-item" data-aos-anchor-placement="center-center">
+				<div id="tag10" class="aos-item__inner">
+					<a href="">柴米油盐</a>
+				</div>
+			</div>
+				</div>
+				
+			</div>
+		</div>
+	<script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script>
+ <div class="black"></div>   
+</section>
 </div>
 
 </body>

@@ -1,0 +1,88 @@
+
+aside {
+  float: left;
+  margin-left: 20px;
+}
+
+.content {
+  width: 950px;
+  float: right;
+  background-size: cover;
+  line-height: 1.5rem;
+  font-family: "Muli", sans-serif;
+  font-weight: 300;
+  box-sizing: border-box;
+  
+}
+.card {
+  width: 800px;
+  height: 100%;
+  margin-left: 20px;
+  box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12);
+  display: table;
+  border-radius: 5px;
+  background-image: url(../photoes/fanhonghua-013.jpg);
+  
+}
+.timeline {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  position: relative;
+  background: rgba(230, 255, 230, 0.5);
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+.timeline::before {
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  left: 0px;
+  border-right: 2px solid #77777D;
+  margin-left: 47px;
+  content: "";
+}
+.timeline__item {
+  padding-top: 30px;
+}
+.timeline__step__marker {
+  position: relative;
+  display: table-cell;
+  width: 24px;
+  height: 24px;
+  z-index: 0;
+  
+}
+.timeline__content {
+  padding-left: 10px;
+  display: table-cell;
+  
+}
+
+.post-meta {
+  position: relative;
+  font-size: 15px;
+  
+}
+ .timeline__title a {
+  color: #000000;
+  word-wrap: break-word;
+}
+
+
+.timeline__title {
+  font-weight: normal;
+  font-size: 25px;
+}
+.timeline__points {
+  padding: 0;
+  list-style: none;
+  color: #0c0c0d;
+  list-style-type: none;
+  font-size: 20px;
+}
+
+
+
