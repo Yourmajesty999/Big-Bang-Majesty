@@ -3,6 +3,9 @@
 <head>
 	<title>Big Bang Majesty</title>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles/search.css">
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts/search.js"></script>
 	<link rel="stylesheet" type="text/css" href="styles/index.css">
 	<link rel="stylesheet" type="text/css" href="styles/log.css">
 	<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -30,12 +33,33 @@
 		</a>
 	</li>
 	<li class="menu">
-		<a href="search.html">
+		<a class="btn btn-info btn-lg show-layer" data-show-layer="hw-layer" role="button">
 			<i class="fa fa-search" aria-hidden="true"></i>
 				搜索
 		</a>
 	</li>
 </div>
+<div class="hw-overlay" id="hw-layer"> 
+    <div class="hw-layer-wrap"> 
+        <span class="glyphicon glyphicon-remove hwLayer-close">
+        	<i class="fa fa-times fa-2x" aria-hidden="true"></i>
+        </span> 
+        <div class="row"> 
+            <div class="col-md-3 col-sm-12 hw-icon"> 
+                <i class="glyphicon glyphicon-info-sign"></i> 
+            </div> 
+            <div class="col-md-9 col-sm-12"> 
+                <form method="get" id="searchform" action="https://www.google.com.hk/">
+         			<input type="text" class="box" name="s" id="s" class="inputText"  />
+         			 <button class="btn-search">
+          				<i class="fa fa-search" aria-hidden="true"></i>
+   		  			</button>
+				</form>		
+            </div> 
+        </div> 
+    </div> 
+</div>
+
 
 	<div id="meone">
 		<img src="photoes/touxiang.jpg">
